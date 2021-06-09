@@ -1,0 +1,393 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*  */
+
+body {
+    width: 1280px;
+    height: 650px;
+    background: #E5E5E5;
+
+}
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    body{
+        background: #E5E5E5;
+    }
+.main{
+    display: none;
+}
+
+    body{
+        background: #E5E5E5;
+    }
+    
+    
+    .main-mobile{
+        width: 320px;
+    height: 747px;
+    background: white;
+    }
+    /* .main{
+        background: white;
+    } */
+    
+    .main-text-mobile{
+        display: flex;
+        /* margin-top: 40px; */
+      /* border: 1px solid black; */
+      padding-top: 40px;
+    }
+    .font-bold-mobile{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #212121;
+    }
+    .reduslim-mobile{
+        margin-left: 20px;
+        width: 89px;
+        height: 23px;
+    }
+    .eco-mobile{
+        margin-left: 150px;
+        width: 41px;
+        height: 23px;
+    }
+    .main-logo-mobile{
+        margin-top: 8px;
+        
+        position: relative;
+    }
+    .main-logo-ellipse-mobile{
+        position: absolute;
+        left: 59px;
+        width: 202px;
+    height: 202px;
+    z-index: 1;
+    /* margin-left: 59px; */
+    }
+    .main-logo-tabls-img-mobile{
+        position: absolute;
+        left: 56px;
+        top: 48px;
+        width: 223px;
+        height: 122px;
+        z-index: 2;
+    }
+    /*  */
+    .main-text-large-mobile{
+        margin-top: 248px;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #212121;
+    }
+    /*  */
+    .main-inputs-name-mobile{
+        margin-top: 28px;
+        margin-left: 20px;
+    }
+    .inp-name-mobile{
+        margin-top: 10px;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    align-items: center;
+    padding: 16px 96px 16px 10px;
+    width: 280px;
+    height: 50px;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+    .main-inputs-tel-mobile{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .inp-tel-mobile{
+        margin-top: 10px;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+        align-items: center;
+    padding: 16px 10px;
+    width: 174px;
+    height: 50px;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+    .color-green-mobile{
+    color:#428A60;
+    }
+    .color-black-mobile{
+       color:black;
+       font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    }
+    .main-inputs-lung-mobile{
+        margin-left: 6px;
+        align-items: center;
+    padding: 16px 10px;
+    width: 96.18px;
+    height: 50px;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+    #order-mobile{
+        padding-left: 94px;
+        margin-left: 20px;
+        margin-top: 28px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    padding: 12px 20px;
+        width: 280px;
+    height: 42px;
+    background: #428A60;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    }
+    #order-mobile:hover{
+        background: #002510;
+        border: 1px solid black;
+    }
+    #order-text-mobile{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-left: 76px;
+    margin-right: 10px;
+    }
+    .main-bottom-mobile{
+        margin-top: 39px;
+        display: flex;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    }
+    .main-trust-mobile{
+        margin-top: 11px;
+        margin-left: 80px;
+        margin-right: 20px;
+    }
+    .main-img-mobile{
+        margin-top: 11px;
+        margin-right: 20px;
+    }
+    .main-secure-mobile{
+        margin-top: 11px;
+    }
+
+
+} 
+
+
+@media screen and (min-width: 1200px){ 
+    .main-mobile{
+        display: none;
+    }
+    body {
+        width: 1280px;
+        height: 650px;
+        background: #E5E5E5;
+    
+    }
+    .main{
+        width: 1280px;
+        height: 650px;
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .left {
+        width: 560px;
+        height: 500px;
+      
+        margin-top: 75px;
+        margin-left: 80px;
+        position: relative;
+        background-image: url(./img/Лево.png);
+    }
+    .left-text{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    width: 89px;
+    height: 23px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #FFFFFF;
+    z-index: 2px;
+    }
+    .left-img{
+        margin-top: 149px;
+        margin-left: 57px;
+    }
+    .left-bottom-text{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 40px;
+    margin-top: -33px;
+    }
+    
+    
+    
+    .right {
+        width: 560px;
+        height: 500px;
+    background: white;
+        margin-top: 75px;
+    }
+    .right-large-text{
+    width: 560px;
+    height: 136px;
+    
+    }
+    .text{
+        width: 303px;
+    height: 78px;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    color: #212121;
+    margin-top: 29px;
+    margin-left: 129px;
+    }
+    .right-form{
+        width: 320.18px;
+    height: 172px;
+    margin-top: 52px;
+    margin-left: 117px;
+    }
+    .input-name{
+        margin-bottom: 20px;
+    }
+    .input-name-main{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+    }
+    
+    .name{
+        width: 320px;
+    height: 50px;
+    align-items: center;
+    padding: 16px 96px 16px 20px;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #F8F8F8;
+    }
+    
+    
+    .tel{
+        align-items: center;
+        width: 184px;
+        height: 50px;
+        background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px 20px;
+    }
+    .lung{
+        width: 116.18px;
+    height: 50px;
+    margin-left: 20px;
+    background: #F8F8F8;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+    #order{
+        margin-top: 38px;
+        margin-left: 117px;
+        width: 320px;
+    height: 42px;
+    background: #428A60;
+    border-radius: 5px;
+    color: white;
+    }
+    #order:hover{
+        background: #048f3e;
+       border: 5px solid black;
+    }
+    
+    
+}
